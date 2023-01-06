@@ -138,3 +138,117 @@ body{
     margin-bottom: 20px;
 }
 
+/* bonus part style  */
+.bonus-bg {
+    background-image: url(../images/watch.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 60px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.bonus-item {
+    padding: 50px 50px;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(23,89,172,9) 24%, rgba(14,146,237,.6) 36%, rgba(14,148,238,.5) 56%, rgba(11,162,242,.4) 70%, rgba(0,212,255,.3) 100%);
+}
+
+.bonus-item h2 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+.bonus-item button {
+    font-weight: 400;
+    font-size: 20px;
+    padding: 20px 35px;
+    background-color: #fff;
+    color: #005FAC;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+/* contact part start */
+#contact {
+    width: 100%;
+    background-color: #2d3035;
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.contact-details h2 {
+    font-size: 30px;
+    color: #fff;
+    font-family: regular;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+}
+
+.contact-details p {
+    font-size: 20px;
+    color: #fff;
+    font-family: regular;
+    font-weight: 400;
+    width: 45%;
+    margin: 0 auto;
+}
+
+.contact-form form input,
+textarea,
+.contact-btn {
+    width: 43%;
+}
+
+.contact-form form input {
+    margin-top: 15px;
+    padding: 10px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+}
+
+.contact-form form .textarea {
+    margin: 15px 0px;
+}
+
+.contact-form form textarea {
+    background-color: transparent;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    color: #fff;
+}
+
+.contact-form form .contact-btn {
+    padding: 10px 0px;
+    background-color: #a4b9be;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.social-icon {
+    margin-top: 20px;
+}
+
+.social-icon i {
+    color: #fff;
+    font-size: 25px;
+    background-color: #9599E2;
+    padding: 15px 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .6s ease;
+}
+
+.social-icon i:hover {
+    background-color: #FBAB7E;
+}
+
