@@ -252,3 +252,63 @@ textarea,
     background-color: #FBAB7E;
 }
 
+
+/* footer style  */
+.footer-bg {
+    background-color: #151414;
+    padding: 100px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+.future {
+    width: 50%;
+}
+.future h2{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 20px;
+}
+.future p{
+    font-weight: 300;
+    font-size: 20px;
+    color: #F8F8F8;
+    margin-bottom: 20px;
+}
+
+.future-img a img {
+    width: 8%;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.subscribe h2 {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+.subscribe input {
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    color: #f3f3f3;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.subscribe button {
+    border: 2px solid #005FAC;
+    background-color: #005FAC;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+.subscribe button:hover{
+    border: 2px solid salmon;
+}
