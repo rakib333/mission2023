@@ -206,9 +206,8 @@ body{
 }
 
 .contact-form form input,
-textarea,
-.contact-btn {
-    width: 43%;
+textarea {
+    width: 40%;
 }
 
 .contact-form form input {
@@ -233,11 +232,13 @@ textarea,
 }
 
 .contact-form form .contact-btn {
-    padding: 10px 0px;
+    padding: 10px 10px;
     background-color: #a4b9be;
-    border: none;
+    border: 1px solid greenyellow;
     color: #fff;
     cursor: pointer;
+    width: 42%;
+    border-radius: 5px;
 }
 
 .social-icon {
@@ -263,7 +264,8 @@ textarea,
 /* footer style  */
 .footer-bg {
     background-color: #151414;
-    padding: 100px;
+    padding: 100px 0px;
+    
 }
 
 .footer-container {
